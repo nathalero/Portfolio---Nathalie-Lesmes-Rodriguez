@@ -1,0 +1,271 @@
+:root{
+    --handlee-font-family: 'Handlee', cursive;
+    --opensans-font-family: font-family: 'Open Sans', sans-serif;
+    --mulish-font-family:'Mulish', sans-serif;
+    --poppins-font-family:'Poppins', sans-serif;
+    --pink-logo: #F7B5CE;
+    --wine-logo:#7D0021;
+    --pink-cv:#FB28D2;
+    --dark-blue-cv:#1406F5;
+    --baby-blue-cv:#53E8B4;
+    
+    --branding-color:  #6c63ff;
+    --secondary-color:#f9f7fe;
+    --heading-font-family:'Playfair Display', serif;
+    --default-font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    font-family: var(--default-font-family);
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: black;
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 96px;
+    line-height: 1.5;
+}
+
+h2{
+    font-size: 62px;
+}
+
+p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+nav{
+padding: 20px 0;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #272142;
+}
+
+nav a:hover,
+nav li.active a{
+    color: var(--branding-color);
+    transition: all 100ms ease-in-out;
+}
+
+.hero {
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    color: #272142;
+}
+
+.hero h2 {
+    font-family: var(--heading-font-family);
+    font-weight: normal;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.content-container{
+    padding: 60px 20px;
+}
+
+.content h1{
+    font-size: 54px;
+    line-height: 1.7;
+}
+
+.content h2{
+    font-size: 18px;
+    font-family: var(--default-font-family);
+}
+
+.content h3{
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: var(--default-font-family);
+}
+
+.content p{
+    font-size: 14px;
+}
+
+.profile{
+    border-radius: 15px;
+}
+.content{
+    margin: 30px;
+}
+
+
+.btn-bd-primary{
+    text-decoration: none;
+    color: white;
+    background-color: var(--branding-color);
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+
+.btn-bd-primary:hover{
+    color: var(--branding-color);
+    background-color: white;
+    border: 1px solid var(--branding-color);
+}
+
+.btn-bd-secondary{
+    text-decoration: none;
+    color: var(--branding-color);
+    border: 1px solid var(--branding-color);
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+
+.btn-bd-secondary:hover{
+    color: white;
+    background-color: var(--branding-color);
+}
+
+.btn-bd-resume{
+    text-decoration: none;
+    color: var(--wine-logo);
+    border: 1px solid var(--wine-logo);
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.btn-bd-resume:hover{
+    color: white;
+    background-color: var(--wine-logo); 
+}
+
+.project-description{
+    padding: 120px 60px;
+}
+
+.logo{
+    max-height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-links{
+    text-decoration: none;
+    color: var(--branding-color);
+}
+
+.contact-links:hover{
+    text-decoration: underline;
+    color: var(--branding-color);
+    font-weight: bold;
+}
+
+footer{
+    margin: 60px 0;
+}
+
+footer .contact-box{
+    background-color: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+
+footer h4{
+    font-size: 48px;
+}
+
+footer .contact-box p{
+    margin: 0;
+}
+
+footer .email-link{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
+
+footer .email-link:hover{
+    color: var(--branding-color);
+}
+
+footer .social-links a{
+    margin: 0 20px;
+    color: var(--branding-color);
+    background-color: var(--secondary-color);
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+}
+
+footer .social-links a:hover{
+    color: white;
+    background-color: var(--branding-color);
+    transition: all 100ms ease-in-out;
+}
+
+
+@media (max-width:900px){
+
+    h1{
+        font-size: 44px;
+        line-height: 56px;
+    }
+
+    h2{
+        font-size: 44px;
+    }
+
+    .project-description{
+        padding: 0;
+        text-align: center;
+    }
+
+    .content-container{
+        text-align: center;
+        padding: 0;
+    }
+
+    .content-container h1{
+        font-size: 44px;
+        line-height: 56px;
+    }
+
+    .contact-sm h3{
+        font-size: 18px;
+    }
+
+    .contact-sm a{
+        font-size: 12px;
+    }
+
+    nav a{
+        font-size: 14px;
+    }
+
+}
