@@ -77,6 +77,18 @@ nav li.active a{
     transition: all 100ms ease-in-out;
 }
 
+.work a{
+    text-decoration: none;
+    font-family: var(--handlee-font-family);
+    font-size: 25px;
+    color: var(--pink-cv);
+}
+
+.work a:hover{
+    text-decoration: underline;
+    color: var(--pink-cv);
+}
+
 .hero {
     background-color: var(--background-logo);
     text-align: center;
