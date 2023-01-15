@@ -259,6 +259,15 @@ nav li.active a{
     font-size: 14px;
 }
 
+.carousel-inner{
+    background-color: #FDEDEC;
+    border-radius: 15px;
+}
+
+.carousel-caption {
+    color: black;
+}
+
 footer{
     margin: 60px 0;
 }
